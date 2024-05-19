@@ -2,12 +2,13 @@ import os
 
 import matplotlib.pyplot as plt
 import numpy as np
-from pre_process import pre_process
+# from pre_process import pre_process
 
 from htk.HTKFeat import MFCC_HTK
 
 # 配置数据路径
-data_path1 = os.path.join(os.getcwd(), '02_data/man.wav')
+data_path1 = os.path.join(os.getcwd(), 'D:\\xxx\\sound_analysis\\03\\train_dataset\\bird\\'
+                                       'bird_4-2_1595274333851.wav')
 data_path2 = os.path.join(os.getcwd(), '02_data\\woman.wav')
 win_shift = 160
 win_len = 400
